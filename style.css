@@ -1,0 +1,99 @@
+h1{
+    text-align:center;
+    color:rgb(241, 59, 59);
+    font-size: 100px;
+    border:100px solid rgb(59, 59, 59);
+    background-color:rgb(59, 59, 59);
+    margin:0px 0px
+}
+
+h2{
+    text-align:center;
+    color:rgb(196, 64, 64);
+    font-size:50px;
+}
+
+body{
+    background-color:rgb(209, 196, 123);
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content:space-between;
+    flex-shrink: 2000px;    
+    border: none;
+    text-align:center;
+    font-size: 20px;
+    margin: 3px 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+
+.button1{
+    color:rgb(184, 0, 0);
+    background-image: url('PlanetBG.png');
+    background-size:cover;
+    background-position:center;
+    padding: 120px 195.5px;
+    font-size: 50px;
+    border-radius: 16px;
+    text-align:center;
+    transition-duration: 0.5s;
+
+}
+
+.button1:hover{
+    opacity:0.8;
+    padding: 125px 210px
+}
+
+.button2{
+    color:white;
+    background-image: url('Game.png');
+    background-size:cover;
+    background-position:center;
+    padding: 120px 105.5px;
+    font-size: 50px;
+    border-radius: 16px;
+    text-align:center;
+    transition-duration: 0.5s;
+
+}
+
+.button2:hover{
+    opacity:0.9;
+    padding: 125px 120px
+}
+
+.button3{
+    color:red;
+    background-image: url('Github.png');
+    background-size:cover;
+    background-position:center;
+    padding: 120px 189px;
+    font-size: 50px;
+    border-radius: 16px;
+    text-align:center;
+    transition-duration: 0.5s;
+
+}
+
+.button3:hover{
+    opacity:0.9;
+    padding: 125px 203.5px
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.back {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+}
